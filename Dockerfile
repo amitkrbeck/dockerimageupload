@@ -1,3 +1,3 @@
 FROM ubuntu:18.10
-RUN apt-get update && apt-get -y install apache2
+RUN sudo apt-get -y install tomcat
 EXPOSE 80
